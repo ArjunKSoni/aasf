@@ -1,3 +1,43 @@
 .grayimg{
   background-color: #282c3450;
 }
+*{
+  scroll-behavior: smooth;
+}
+.PrevEvent{
+  width: 250px;
+  height: 250px;
+}
+.Gallery{
+  width: 250px;
+  height: 450px;
+}
+.upcomingEvent{
+  height: 40vh;
+}
+.widthPrev{
+  width: 70vw;
+}
+.widthUp{
+  width: 30vw;
+}
+
+
+
+
+
+/* Make the scrollbar narrower */
+::-webkit-scrollbar {
+  width: 6px; /* Adjust the width as needed */
+}
+
+/* Track (the area where the scrollbar sits) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background color of the track */
+}
+
+/* Handle (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the handle */
+  border-radius: 3px; /* Rounded corners on the handle */
+}
